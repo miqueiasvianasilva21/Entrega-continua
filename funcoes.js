@@ -1,5 +1,5 @@
 
-const kgToLbs = (kg)=> {
+const kgToLbs = (k)=> {
     const lbs = kg * 2.20462;
     return lbs;
 }
