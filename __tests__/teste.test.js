@@ -17,7 +17,7 @@ describe('Teste kgToLbs', () => {
     });
   
     test('Deve converter 70 kg para aproximadamente 154.3234 lbs', () => {
-      expect(kgToLbs(70)).toBeCloseTo(160.3234, 3);
+      expect(kgToLbs(70)).toBeCloseTo(154.3234, 3);
     });
     test('Deve converter 10 kg para aproximadamente 22.0462 lbs', () => {
         expect(kgToLbs(10)).toBeCloseTo(22.0462, 3);
