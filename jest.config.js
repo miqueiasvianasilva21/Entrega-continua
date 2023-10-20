@@ -107,7 +107,7 @@ const config = {
   // projects: undefined,
 
   // Use this configuration option to add custom reporters to Jest
-  // reporters: ["./node_modules/jest-html-reporter"],
+  reporters: ["./node_modules/jest-html-reporter"],
 
   // Automatically reset mock state before every test
   // resetMocks: false,
